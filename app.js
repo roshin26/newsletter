@@ -33,10 +33,10 @@ var data={
 var jsonData =JSON.stringify(data);
 
 var options={
-url:"https://us4.api.mailchimp.com/3.0/lists/9c0ebb208d",
+url:"mailchimp url",
 method:"POST",
 headers:{
-  "Authorization":"Roshin 08d6d790e8332ce03c7be13db42319b0-us4 "
+  "Authorization":"api key "
 },
 body: jsonData
 };
